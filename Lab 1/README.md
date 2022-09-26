@@ -56,7 +56,7 @@ Ikuti langkah-langkah instalasi pada website [Debian Jenkins Package](https://pk
 1. Pilih menu ```New Item```.
 2. Beri nama item.
 3. Beri deskripsi.
-4. Pada bagian ```Build``` pilih ```Execute shell```.
+4. Pada bagian ```Build Steps -> Add build step``` pilih ```Execute shell```.
     Masukkan command berikut
     ```
     echo "Hello World"
