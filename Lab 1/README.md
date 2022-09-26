@@ -130,7 +130,8 @@ Git sudah otomatis terinstal pada Ubuntu 20.04
 2. Pilih ```Manage Plugins``` dan install ```Maven Integration```.
 
 ### 1.5.4. Configure Maven dan Java
-1. Add JDK. Hilangkan centang install JDK.
+1. Pilih menu ``Dashboard -> Manage Jenkins -> Global Tool Configuration``
+2. Add JDK. Hilangkan centang install JDK.
     - Name: java-11
     - JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
 
