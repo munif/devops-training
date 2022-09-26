@@ -142,7 +142,7 @@ Git sudah otomatis terinstal pada Ubuntu 20.04
 
 ## 1.6. Build Java Project menggunakan Jenkins
 1. Buat item baru dengan nama ```FirstMavenProject``` dengan pilihan ```Maven project```.
-2. Tambahkan Git repository.
+2. Tambahkan Git repository [https://github.com/munif/hello-world](https://github.com/munif/hello-world).
 3. Pada bagian ```Build | Goal and options```, tambahkan parameter ```clean install```.
 4. Jalankan job dengan cara mengeklik ```Build Now```.
 5. Cek hasil build di ```Workspace```.
