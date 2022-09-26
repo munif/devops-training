@@ -122,7 +122,7 @@ Git sudah otomatis terinstal pada Ubuntu 20.04
 
 3. Jalankan perintah berikut untuk merefresh environment variable
     ```
-    source .bash_profile
+    source ~/.bash_profile
     ```
 
 ### 1.5.3. Install Maven Plugin
