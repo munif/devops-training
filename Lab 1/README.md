@@ -81,9 +81,10 @@ Git sudah otomatis terinstal pada Ubuntu 20.04
 
 ## 1.4. Menjalankan Jenkins untuk melakukan pull code dari GitHub
 1. Create ```New Item```, dengan item name: ```PullCodeFromGitHub```.
-2. Pada bagian ```Source Code Management```, konfigurasi repository yang akan ditarik kode programnya.
-3. Pilih ```Apply``` kemudian ```Save```.
-4. Jalankan job dan cek console outputnya.
+2. Pada bagian ```Source Code Management```, konfigurasi repository yang akan ditarik kode programnya.  
+    Untuk lab ini, kita menggunakan [https://github.com/munif/hello-world](https://github.com/munif/hello-world)
+4. Pilih ```Apply``` kemudian ```Save```.
+5. Jalankan job dan cek console outputnya.
     
     Kita juga bisa melihat di mana kode program didownload (```/var/lib/jenkins/workspace/PullCodeFromGitHub```).
 
