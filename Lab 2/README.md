@@ -30,9 +30,9 @@ Install Java
     ```
     $ cd /opt/
     ```
-2. Download [Tomcat](https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65.tar.gz)
+2. Download [Tomcat](https://tomcat.apache.org/download-90.cgi)  
     ```
-    $ sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65.tar.gz
+    $ sudo wget <URL file>
     ```
 3. Extract Tomcat.
     ```
